@@ -1,0 +1,7 @@
+com\controller\FetchServlet.class
+com\controller\BookData.class
+com\controller\IndelServlet.class
+com\controller\UpSeServlet.class
+com\sqlconnect\Mysqlconnect.class
+com\implementation\WebImplementation.class
+com\bean\Encapsulation.class

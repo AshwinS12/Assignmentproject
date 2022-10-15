@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" version="4.0">
+  <display-name>Assignmentweb</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+    <servlet>
+<servlet-name>IndelServlet</servlet-name>
+<servlet-class>com.controller.IndelServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>IndelServlet</servlet-name>
+<url-pattern>/IndelServlet</url-pattern>
+</servlet-mapping>
+  <servlet>
+<servlet-name>FetchServlet</servlet-name>
+<servlet-class>com.controller.FetchServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>FetchServlet</servlet-name>
+<url-pattern>/FetchServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>BookData</servlet-name>
+<servlet-class>com.controller.BookData</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>BookData</servlet-name>
+<url-pattern>/BookData</url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>UpSeServlet</servlet-name>
+<servlet-class>com.controller.UpSeServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>UpSeServlet</servlet-name>
+<url-pattern>/UpSeServlet</url-pattern>
+</servlet-mapping>
+</web-app>
